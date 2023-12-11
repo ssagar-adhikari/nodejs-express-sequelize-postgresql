@@ -15,3 +15,22 @@
 – listen on port 8080 for incoming requests.
 
 - node server.js
+
+
+# Configure postgress database and sequalize 
+    In the app folder, we create a separate config folder for configuration with db.config.js
+
+
+    First five parameters are for PostgreSQL connection.
+    pool is optional, it will be used for Sequelize connection pool configuration:
+
+    max: maximum number of connection in pool
+    min: minimum number of connection in pool
+    idle: maximum time, in milliseconds, that a connection can be idle before being released
+    acquire: maximum time, in milliseconds, that pool will try to get connection before throwing error
+
+    For more details, visit API Reference for the Sequelize constructor.
+
+# Initialize Sequelize
+
+    
