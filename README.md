@@ -33,4 +33,13 @@
 
 # Initialize Sequelize
 
-    
+    initialize Sequelize in app/models folder that will contain model in the next step.
+    create models
+
+# Create the Controller
+Inside app/controllers folder, let’s create tutorial.controller.js with these CRUD functions:
+
+# Define Routes
+When a client sends request for an endpoint using HTTP request (GET, POST, PUT, DELETE), we need to determine how the server will reponse by setting up the routes
+
+We also need to include routes in server.js (right before app.listen()):
